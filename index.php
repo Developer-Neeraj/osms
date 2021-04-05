@@ -27,10 +27,10 @@
             <div class="collapse navbar-collapse pl-4" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto pl-4">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="inde.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="#service">Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Registration</a>
@@ -39,7 +39,7 @@
                         <a class="nav-link" href="requester/RequesterLogin.php">Login</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -52,13 +52,13 @@
                 <h1>WELCOME TO OSMS</h1>
                 <p>Customer happiness is over Aim</p>
                 <a href="requester/RequesterLogin.php" class="btn btn-danger btn-xl mx-4">Login</a>
-                <a href="#" class="btn btn-success btn-xl mx-4">Sign Up</a>
+                <a href="#regisUser" class="btn btn-success btn-xl mx-4">Sign Up</a>
             </center>
         </header>
         <!-- End header section -->
 
         <!-- Introduction osms service section -->
-        <div class="container my-4">
+        <div class="container my-4" id="service">
             <div class="jumbotron my-4">
                 <h1 class="text-center">OSMS Services</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat impedit deleniti, eius, et harum nemo
@@ -95,7 +95,9 @@
         <!-- End service section -->
 
         <!-- start registration form -->
-        <?php include("userRegistration.php") ?>
+        <div id="regisUser">
+            <?php include("userRegistration.php") ?>
+        </div>
         <!-- End registration form -->
 
         <!-- start happy customer -->
@@ -146,7 +148,7 @@
         <!-- END happy customer -->
 
         <!-- start contact us form -->
-        <div class="container">
+        <div class="container" id="contact">
             <h2 class="text-center mb-5">Contact us</h2>
             <div class="row">
 
