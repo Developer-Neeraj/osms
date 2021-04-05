@@ -1,0 +1,53 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+#back-image {
+    background-position: center center;
+    background-size: cover;
+    height: 620px;
+    width: 100%;
+}
+
+#back-image center {
+    position: relative;
+    top: 40%;
+}
+
+.fi-color {
+    color: red;
+}
+
+.fi-color:hover {
+    color: burlywood;
+}
+/* Dashboard of side nav css  */
+.sidebar {
+    height: 94vh;
+}
+
+.nav-item a {
+    color: red;
+}
+
+.nav-item a:hover {
+    color: rgb(243, 101, 101);
+}
+
+.nav-item .active {
+    background-color: red;
+    color: white;
+}
+
+
+/* submitRequest.php css */
+.submitRequest input {
+    height: 28px;
+}
+
