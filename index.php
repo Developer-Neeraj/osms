@@ -108,7 +108,7 @@
                     <div class="col-md-3">
                         <div class="card shadow-lg mt-5">
                             <div class="card-body text-center">
-                                <img src="image/1.jpg" class="img-fluid" style="border-radius: 200px; height: 100px; width: 100px" alt="img1">
+                                <img src="image/man1.jpg" class="img-fluid" style="border-radius: 200px; height: 100px; width: 100px" alt="img1">
                                 <h4 class="card-title">David</h4>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum tempora esse quo at, neque provident perferendis quis omnis obcaecati?</p>
                             </div>
@@ -117,7 +117,7 @@
                     <div class="col-md-3">
                         <div class="card shadow-lg mt-5">
                             <div class="card-body text-center">
-                                <img src="image/2.jpg" class="img-fluid" style="border-radius: 200px; height: 100px; width: 100px" alt="img2">
+                                <img src="image/man2.jpg" class="img-fluid" style="border-radius: 200px; height: 100px; width: 100px" alt="img2">
                                 <h4 class="card-title">Aarav</h4>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum tempora esse quo at, neque provident perferendis quis omnis obcaecati?</p>
                             </div>
@@ -135,7 +135,7 @@
                     <div class="col-md-3">
                         <div class="card shadow-lg mt-5">
                             <div class="card-body text-center">
-                                <img src="image/4.jpg" class="img-fluid" style="border-radius: 200px; height: 100px; width: 100px" alt="img4">
+                                <img src="image/main4.jpg" class="img-fluid" style="border-radius: 200px; height: 100px; width: 100px" alt="img4">
                                 <h4 class="card-title">Karan</h4>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum tempora esse quo at, neque provident perferendis quis omnis obcaecati?</p>
                             </div>
