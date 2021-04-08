@@ -109,7 +109,7 @@
                         <div class="card shadow-lg mt-5">
                             <div class="card-body text-center">
                                 <img src="image/1.jpg" class="img-fluid" style="border-radius: 200px; height: 100px; width: 100px" alt="img1">
-                                <h4 class="card-title">SEETA</h4>
+                                <h4 class="card-title">David</h4>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum tempora esse quo at, neque provident perferendis quis omnis obcaecati?</p>
                             </div>
                         </div>
@@ -118,7 +118,7 @@
                         <div class="card shadow-lg mt-5">
                             <div class="card-body text-center">
                                 <img src="image/2.jpg" class="img-fluid" style="border-radius: 200px; height: 100px; width: 100px" alt="img2">
-                                <h4 class="card-title">GEETA</h4>
+                                <h4 class="card-title">Aarav</h4>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum tempora esse quo at, neque provident perferendis quis omnis obcaecati?</p>
                             </div>
                         </div>
@@ -127,7 +127,7 @@
                         <div class="card shadow-lg mt-5">
                             <div class="card-body text-center">
                                 <img src="image/3.jpg" class="img-fluid" style="border-radius: 200px; height: 100px; width: 100px" alt="img3">
-                                <h4 class="card-title">JYOTI</h4>
+                                <h4 class="card-title">Aadhya</h4>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum tempora esse quo at, neque provident perferendis quis omnis obcaecati?</p>
                             </div>
                         </div>
@@ -136,7 +136,7 @@
                         <div class="card shadow-lg mt-5">
                             <div class="card-body text-center">
                                 <img src="image/4.jpg" class="img-fluid" style="border-radius: 200px; height: 100px; width: 100px" alt="img4">
-                                <h4 class="card-title">SUMAN</h4>
+                                <h4 class="card-title">Karan</h4>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum tempora esse quo at, neque provident perferendis quis omnis obcaecati?</p>
                             </div>
                         </div>

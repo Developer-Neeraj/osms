@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.2
+-- version 5.1.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 04, 2020 at 05:40 AM
--- Server version: 10.4.11-MariaDB
--- PHP Version: 7.4.5
+-- Generation Time: Apr 08, 2021 at 07:14 AM
+-- Server version: 10.4.18-MariaDB
+-- PHP Version: 8.0.3
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -57,13 +57,6 @@ CREATE TABLE `assets_tb` (
   `prod_price` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
---
--- Dumping data for table `assets_tb`
---
-
-INSERT INTO `assets_tb` (`prod_Id`, `prod_name`, `prod_dop`, `prod_avail`, `prod_total`, `prod_cost`, `prod_price`) VALUES
-(1, 'flower', '2020-08-01', 5, 10, 30, 50);
-
 -- --------------------------------------------------------
 
 --
@@ -92,7 +85,7 @@ CREATE TABLE `assignwork_tb` (
 --
 
 INSERT INTO `assignwork_tb` (`rno`, `request_id`, `request_info`, `request_desc`, `request_name`, `request_add1`, `request_add2`, `request_city`, `request_state`, `request_zip`, `request_email`, `request_mobile`, `request_assign`, `request_date`) VALUES
-(2, 1, 'dbfbd', 'fbdfbd', 'Neeraj', 'fesgr', 'grere', 'rge', 'rgerege', 121005, 'rgrehe@123', 595644848, 'Aman', '2020-08-31');
+(1, 1, 'washing machine ', 'washing machine is very noisy', 'Neeraj', '10598', 'sanjay colony sector 23', 'Faridabad', 'Haryana', 121005, 'vishwakarmaneeraj866@gmail.com', 2147483647, 'kapil', '2021-04-08');
 
 -- --------------------------------------------------------
 
@@ -110,13 +103,6 @@ CREATE TABLE `customer_tb` (
   `cptotal` int(11) NOT NULL,
   `cpsdate` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
-
---
--- Dumping data for table `customer_tb`
---
-
-INSERT INTO `customer_tb` (`cId`, `cname`, `cadd`, `cpname`, `cpquantity`, `cpeach`, `cptotal`, `cpsdate`) VALUES
-(1, 'SADHO ', 'MCF 10598', 'flower', 2, 50, 100, '2020-09-01');
 
 -- --------------------------------------------------------
 
@@ -136,9 +122,7 @@ CREATE TABLE `requesterlogin_tb` (
 --
 
 INSERT INTO `requesterlogin_tb` (`r_login_id`, `r_name`, `r_email`, `r_password`) VALUES
-(1, 'Neeraj', 'vishwakarmaneeraj866@gmail.com', '420'),
-(3, 'Rohit', 'rohit@123gmail.com', '150'),
-(5, 'kallu', 'kallu@420gmail.com', '250');
+(1, 'Neeraj', 'vishwakarmaneeraj866@gmail.com', '123');
 
 -- --------------------------------------------------------
 
@@ -166,7 +150,7 @@ CREATE TABLE `submitrequest_tb` (
 --
 
 INSERT INTO `submitrequest_tb` (`requester_id`, `requester_info`, `requester_desc`, `requester_name`, `requester_add1`, `requester_add2`, `requester_city`, `requester_state`, `requester_zip`, `requester_email`, `requester_mobile`, `requester_date`) VALUES
-(1, 'dbfbd', 'fbdfbd', 'Neeraj', 'fesgr', 'grere', 'rge', 'rgerege', 121005, 'rgrehe', 595644848, '2020-08-10');
+(1, 'washing machine ', 'washing machine is very noisy', 'Neeraj', '10598', 'sanjay colony sector 23', 'Faridabad', 'Haryana', 121005, 'vishwakarmaneeraj866@gmail.com', 9267999376, '2021-04-04');
 
 -- --------------------------------------------------------
 
@@ -187,7 +171,7 @@ CREATE TABLE `technician_tb` (
 --
 
 INSERT INTO `technician_tb` (`empId`, `empName`, `empCity`, `empMobile`, `empEmail`) VALUES
-(1, 'Mohit', 'Faridabad', 9267999376, 'neeraj@401');
+(1, 'Kapil', 'faridabad', 9267999376, 'kapil@123.com');
 
 --
 -- Indexes for dumped tables
@@ -249,37 +233,37 @@ ALTER TABLE `adminlogin_tb`
 -- AUTO_INCREMENT for table `assets_tb`
 --
 ALTER TABLE `assets_tb`
-  MODIFY `prod_Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `prod_Id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `assignwork_tb`
 --
 ALTER TABLE `assignwork_tb`
-  MODIFY `rno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `rno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `customer_tb`
 --
 ALTER TABLE `customer_tb`
-  MODIFY `cId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `cId` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `requesterlogin_tb`
 --
 ALTER TABLE `requesterlogin_tb`
-  MODIFY `r_login_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `r_login_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `submitrequest_tb`
 --
 ALTER TABLE `submitrequest_tb`
-  MODIFY `requester_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `requester_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `technician_tb`
 --
 ALTER TABLE `technician_tb`
-  MODIFY `empId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `empId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
